@@ -1,0 +1,28 @@
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input-label {
+  font-family: Oswald;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.input {
+  width: 100%;
+  height: 36px;
+  padding: 0px 10px;
+  border-radius: 6px;
+  border: 1.5px solid #383838;
+  background: #fff;
+  color: #121040;
+  font-family: Montserrat;
+  font-size: 12px;
+}
+
+.input:focus {
+  outline: none;
+}

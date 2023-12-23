@@ -1,0 +1,5 @@
+.form__birthday {
+  display: grid;
+  grid-template-columns: 80px 120px 80px;
+  gap: 10px;
+}

@@ -1,0 +1,26 @@
+.form {
+  text-align: center;
+}
+
+.form__wrapper {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.error__message {
+  position: absolute;
+  top: 80px;
+  right: 30px;
+  padding: 10px 20px;
+  background: #e04141;
+  color: #fff;
+  transition: visibility 0.3s ease;
+  visibility: hidden;
+}
+
+.error__message.active {
+  visibility: visible;
+}

@@ -1,0 +1,40 @@
+.modal {
+  visibility: hidden;
+}
+
+.modal.active {
+  visibility: visible;
+}
+
+.modal__wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal__inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+  background: #bcfece;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.modal__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: inherit;
+  align-self: flex-end;
+}
